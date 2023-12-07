@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FORM.css">
+    <title>Document</title>
+</head>
+<body>
+<h1 id="titre">سلام بچه ها</h1>
+  <hr>
+  <img src="image/bulboff.gif" alt="boldoff" id="bold1">
+  <button onclick="turnOnorOff()" id="btn"> turn off</button>
+    <!-- <table class="tab">
+        <thead>
+          <tr>
+            <th class="line">شماره دانشجویی</th>
+            <th class="line">شماره ملی</th>
+            <th class="line">عکس</th>
+            <th class="line">نام و نام خانوادگی</th>
+            <th class="line">معدل</th>
+            <th class="line">استان محل سکونت</th>
+            <th class="line">شهر محل سکونت</th>
+            <th class="line">آدرس دقیق</th>
+            <th class="line">عملیات</th>
+          </tr>
+        </thead>
+        <tbody id="dataTable">
+          
+        </tbody>
+      </table> -->
+      <input type="text" id="hello" class="hey">
+      <input type="text" id="name" name="name"><br><br>
+      <script src="app.js"></script>
+      <!-- <table id="dataTable">
+        <tr>
+          <th>نام</th>
+          <th>ایمیل</th>
+        </tr>
+      </table>
+      
+      <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var formData = localStorage.getItem("formData");
+        if (formData) {
+          var data = JSON.parse(formData);
+          var name = data.name;
+          var email = data.email;
+      
+          var table = document.getElementById("dataTable");
+          var newRow = table.insertRow(table.rows.length);
+          var cell1 = newRow.insertCell(0);
+          var cell2 = newRow.insertCell(1);
+          cell1.innerHTML = name;
+          cell2.innerHTML = email;
+      
+          localStorage.removeItem("formData");
+        }
+      });
+      </script> -->
+</body>
+</html>
